@@ -1,0 +1,13 @@
+title: Jekyll-Store
+description: CMS-Free Ecommerce Solution
+baseurl: ''
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+collections:
+  - features
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - CNAME

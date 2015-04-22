@@ -1,0 +1,13 @@
+<footer>
+  <div class='row'>
+    <div class='col-lg-12'>
+    	<h4>Images:</h4>
+      {% for attribution in site.data.attributions %}
+      	<p>
+      		<a href='{{ attribution.link }}'>{{ attribution.name }}</a>
+      		by {{ attribution.author }}.
+      	</p>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
